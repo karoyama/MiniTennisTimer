@@ -11,18 +11,19 @@
 
 <body>
   <div class="py-4 text-center">
-    <div class="container" >
+     <div class="container">
       <div class="row">
-        <div class="col-12 col-sm-6">
-          <h1 class="display-5 text-capitalize">Mini-Tennis Timer</h1>
+        <div class="col-12">
           <div class="form-group">
             <form name="ktimer"> <input type="text" class="form-control form-control-lg" placeholder="Large input" name="counter"> </form>
           </div>
           <hr>
+        </div>
+        <div class="col-12 col-sm-6">
           <a class="btn btn-primary btn-lg btn-block" href="#" onclick="set_nonRep_timer(60)">1分</a>
           <a class="btn btn-info btn-lg btn-block" href="#" onclick="timer_stop()">リセット</a>
           <a class="btn btn-secondary btn-lg btn-block" href="#" onclick="set_nonRep_timer(300)">5分</a>
-          <a class="btn btn-light btn-lg btn-block" href="#" onclick="set_repeat_timer(60)">1分リピート</a>
+          <a class="btn btn-light btn-lg btn-block" href="#" onclick="set_repeat_timer(60)" >1分リピート</a>
           <a class="btn btn-dark btn-lg btn-block" href="#" onclick="set_repeat_timer(120)">2分リピート</a>
         </div>
       </div>
