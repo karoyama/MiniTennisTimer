@@ -1530,6 +1530,7 @@ select.form-control:focus::-ms-value {
   border-radius: 0.2rem; }
 
 .form-control-lg {
+  font-weight:bold; /*20190606*/
   height: calc(1.5em + 1rem + 2px);
   padding: 0.5rem 1rem;
   font-size: 2rem /*1.25rem*/;
