@@ -72,6 +72,12 @@
     var sound = new Howl({
       src: ['mix_09s.mp3']
     })
+    var sound1 = new Howl({
+      src: ['604 (1).mp3']
+    })
+    var sound2 = new Howl({
+      src: ['604 (2).mp3']
+    })
     timer_reset();
 
     function timer_reset() {
@@ -87,6 +93,7 @@
       }
       document.ktimer.counter.value = num;
       count_start();
+      sound1.play();
     }
 
     function count_start() {
@@ -111,6 +118,7 @@
     function timer_stop() {
       alarm_stop();
       count_stop();
+      sound2.play();
     }
 
     function count_stop() {
